@@ -8,7 +8,7 @@ const ServiceCard = ({ index, title, icon }) => (
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className='xs:w-[250px] w-full'
   >
-    <div className='w-full bg-gradient-to-br from-[#915EFF] to-[#00d2ff] p-[1px] rounded-[20px]'>
+    <div className='w-full bg-gradient-to-br from-[#915EFF] to-[#7c3ee0] p-[1px] rounded-[20px]'>
       <div className='bg-[#151030] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
         <img src={icon} alt={title} className='w-16 h-16 object-contain' />
         <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
@@ -37,7 +37,7 @@ const About = () => {
         className='mt-4 text-[#aaa6c3] text-[17px] max-w-3xl leading-[30px]'
       >
         Hi! I'm <span className='text-[#915EFF] font-semibold'>Anshul Tiwari</span>, a passionate Full Stack Developer from{" "}
-        <span className='text-[#00d2ff]'>Kanpur, India</span>. I specialize in building end-to-end web applications using React, Node.js, Express, and MongoDB. With a love for clean code and sleek UIs, I turn complex ideas into fast, scalable, and beautiful digital experiences. Let's create something amazing together!
+        <span className='text-[#7c3ee0]'>Kanpur, India</span>. I specialize in building end-to-end web applications using React, Node.js, Express, and MongoDB. With a love for clean code and sleek UIs, I turn complex ideas into fast, scalable, and beautiful digital experiences. Let's create something amazing together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

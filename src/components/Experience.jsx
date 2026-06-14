@@ -12,7 +12,7 @@ const experiences = [
     points: [
       "Built end-to-end web apps with React, Node.js, Express & MongoDB.",
       "Developed TukTuk App – real-time transport booking platform.",
-      "Created Blockchain Supply Chain DApp using Solidity & Ethers.js.",
+      "Built Career Guru — a MERN application to guide users toward the right career paths with assessments and personalized suggestions.",
       "Built Rhythmix – social music streaming app with Next.js & Supabase.",
     ],
   },
@@ -46,7 +46,7 @@ const ExperienceCard = ({ experience, index }) => (
       </div>
       <ul className='space-y-2'>
         {experience.points.map((point, i) => (
-          <li key={i} className='text-[#aaa6c3] text-[14px] pl-4 border-l-2 border-[#00d2ff]/30 leading-relaxed'>
+          <li key={i} className='text-[#aaa6c3] text-[14px] pl-4 border-l-2 border-[#7c3ee0]/30 leading-relaxed'>
             {point}
           </li>
         ))}

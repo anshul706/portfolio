@@ -13,7 +13,7 @@ const RotatingGlobe = () => {
   return (
     <group>
       <ambientLight intensity={0.4} />
-      <pointLight position={[5, 5, 5]} intensity={1} color="#00d2ff" />
+      <pointLight position={[5, 5, 5]} intensity={1} color="#7c3ee0" />
       <pointLight position={[-5, -5, -5]} intensity={0.5} color="#915EFF" />
       <mesh ref={meshRef}>
         <sphereGeometry args={[2, 32, 32]} />
@@ -21,7 +21,7 @@ const RotatingGlobe = () => {
       </mesh>
       <mesh ref={meshRef}>
         <sphereGeometry args={[2.05, 16, 16]} />
-        <meshStandardMaterial color="#00d2ff" wireframe opacity={0.3} transparent />
+        <meshStandardMaterial color="#7c3ee0" wireframe opacity={0.3} transparent />
       </mesh>
     </group>
   );

@@ -78,15 +78,15 @@ export const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Blockchain Supply Chain",
-    description: "Decentralized application for tracking logistics and ensuring transparency using Ethereum.",
+    name: "Career Guru",
+    description: "A full MERN application that helps users discover the right career path through assessments, role suggestions, and learning resources.",
     tags: [
-      { name: "solidity", color: "blue-text-gradient" },
-      { name: "react", color: "green-text-gradient" },
-      { name: "ethers", color: "pink-text-gradient" },
+      { name: "mern", color: "text-purple-400" },
+      { name: "react", color: "text-green-400" },
+      { name: "mongodb", color: "text-pink-400" },
     ],
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
-    source_code_link: "https://github.com/",
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop",
+    source_code_link: "https://github.com/anshul706/career-guru",
   },
   {
     name: "Rhythmix App",

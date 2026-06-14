@@ -55,15 +55,15 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Blockchain Supply Chain",
-    description: "Decentralized application for end-to-end logistics transparency using Ethereum smart contracts and a React frontend.",
+    name: "Career Guru",
+    description: "A full MERN application that helps users discover the right career path through assessments, role suggestions, and curated learning resources.",
     tags: [
-      { name: "solidity", color: "text-blue-400" },
+      { name: "mern", color: "text-purple-400" },
       { name: "react", color: "text-green-400" },
-      { name: "ethers.js", color: "text-pink-400" },
+      { name: "mongodb", color: "text-pink-400" },
     ],
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
-    source_code_link: "https://github.com/",
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop",
+    source_code_link: "https://github.com/anshul706/career-guru",
   },
   {
     name: "Rhythmix App",
@@ -101,7 +101,7 @@ const Projects = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-[#aaa6c3] text-[17px] max-w-3xl leading-[30px]'
       >
-        Real-world projects showcasing my skills in full-stack development, blockchain, AI, and 3D web design.
+        Real-world projects showcasing my skills in full-stack development, AI, and 3D web design.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-7'>

@@ -19,7 +19,7 @@ const Hero = () => {
           </h1>
           <p className='text-[#dfd9ff] font-medium lg:text-[24px] sm:text-[20px] xs:text-[18px] text-[15px] lg:leading-[36px] mt-3'>
             I build{" "}
-            <span className='text-[#00d2ff] font-bold'>
+            <span className='text-[#7c3ee0] font-bold'>
               <Typewriter
                 words={['Full Stack Apps', '3D Experiences', 'REST APIs', 'Real-time Systems']}
                 loop={0}
@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
 
       {/* Right side Photo with Glow */}
-      <div className='absolute right-[-5%] top-[15%] w-[60%] h-[70%] flex justify-center items-center'>
+          <div className='absolute right-0 top-[15%] w-[60%] md:w-1/2 lg:w-2/5 flex justify-center items-center'>
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -57,7 +57,7 @@ const Hero = () => {
           className='relative group cursor-pointer'
         >
           {/* Animated Background Glow */}
-          <div className='absolute -inset-1 bg-gradient-to-r from-[#915EFF] to-[#00d2ff] rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200 animate-pulse' />
+          <div className='absolute -inset-1 bg-gradient-to-r from-[#915EFF] to-[#7c3ee0] rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200 animate-pulse' />
           
           <motion.div
             animate={{
@@ -73,10 +73,10 @@ const Hero = () => {
             <img 
               src={anshulPhoto} 
               alt='Anshul Tiwari' 
-              className='w-[450px] h-[550px] object-cover rounded-2xl border-2 border-white/10 shadow-2xl shadow-[#915EFF]/20'
+              className='max-w-[450px] w-full h-auto object-cover rounded-2xl border-2 border-white/10 shadow-2xl shadow-[#915EFF]/20'
             />
             {/* Overlay Gradient */}
-            <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/60 to-transparent rounded-2xl' />
+            <div className='absolute inset-0 bg-gradient-to-t from-[#0b0721]/60 to-transparent rounded-2xl' />
           </motion.div>
         </motion.div>
       </div>

@@ -2,7 +2,7 @@ import { Navbar, Hero, About, Skills, Projects, Experience, Contact, StarsCanvas
 
 const App = () => {
   return (
-    <div className='relative z-0 bg-[#050816]'>
+    <div className='relative z-0 bg-[#0b0721]'>
       <div>
         <Navbar />
         <Hero />

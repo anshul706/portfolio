@@ -15,7 +15,7 @@ const AnimatedSphere = () => {
     <group>
       <ambientLight intensity={0.3} />
       <pointLight position={[10, 10, 10]} intensity={1} color="#915EFF" />
-      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#00d2ff" />
+      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#7c3ee0" />
       <Sphere ref={meshRef} visible args={[1, 100, 200]} scale={2.4}>
         <MeshDistortMaterial
           color="#915EFF"
@@ -27,7 +27,7 @@ const AnimatedSphere = () => {
       </Sphere>
       {/* Outer wireframe ring */}
       <Sphere visible args={[1.05, 32, 32]} scale={2.4}>
-        <meshStandardMaterial color="#00d2ff" wireframe opacity={0.15} transparent />
+        <meshStandardMaterial color="#7c3ee0" wireframe opacity={0.15} transparent />
       </Sphere>
     </group>
   );
