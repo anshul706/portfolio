@@ -36,7 +36,7 @@ const ExperienceCard = ({ experience, index }) => (
     className='relative pl-8 pb-10 border-l-2 border-[#915EFF]/40 last:border-l-0'
   >
     <div className='absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#915EFF] shadow-lg shadow-[#915EFF]/50' />
-    <div className='bg-[#1d1836] rounded-2xl p-6 border border-[#915EFF]/20 hover:border-[#915EFF]/50 transition-all duration-300'>
+    <div className='bg-[#1d1836] rounded-2xl p-4 sm:p-6 border border-[#915EFF]/20 hover:border-[#915EFF]/50 transition-all duration-300'>
       <div className='flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3'>
         <div>
           <h3 className='text-white font-bold text-[22px]'>{experience.title}</h3>
@@ -63,7 +63,7 @@ const Experience = () => {
         <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center'>Experience.</h2>
       </motion.div>
 
-      <div className='mt-16 max-w-3xl mx-auto'>
+      <div className='mt-16 max-w-3xl mx-auto overflow-hidden px-1'>
         {experiences.map((exp, index) => (
           <ExperienceCard key={index} experience={exp} index={index} />
         ))}

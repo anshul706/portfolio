@@ -40,7 +40,7 @@ const About = () => {
         <span className='text-[#7c3ee0]'>Kanpur, India</span>. I specialize in building end-to-end web applications using React, Node.js, Express, and MongoDB. With a love for clean code and sleek UIs, I turn complex ideas into fast, scalable, and beautiful digital experiences. Let's create something amazing together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

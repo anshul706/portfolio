@@ -23,8 +23,7 @@ const SkillCard = ({ name, color, level, index }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.1, 0.5)}
     whileHover={{ scale: 1.08, y: -5 }}
-    className='flex flex-col items-center gap-3 p-5 rounded-xl bg-[#151030] border border-white/10 hover:border-[#915EFF]/60 transition-all duration-300 cursor-default'
-    style={{ minWidth: "120px" }}
+    className='flex flex-col items-center gap-3 p-5 rounded-xl bg-[#151030] border border-white/10 hover:border-[#915EFF]/60 transition-all duration-300 cursor-default w-[140px] sm:w-[160px]'
   >
     <div
       className='w-14 h-14 rounded-full flex items-center justify-center text-2xl font-bold'
